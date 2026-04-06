@@ -28,4 +28,29 @@ services/            # Application services
 infra/               # Infrastructure and monitoring setup
 sample-data/         # Example datasets and events
 tests/               # Test cases
+```
 
+## Design Principles
+
+- Prefer simplicity over unnecessary complexity
+- Design for observability from day one
+- Build with failure in mind
+- Separate concerns across services and layers
+- Ensure solutions are supportable and well-documented
+- Balance trade-offs between speed, cost, and scalability
+
+## Architecture Overview
+
+Coming soon - high-level system design and diagrams.
+
+## Getting Started
+
+Instructions for running the platform locally will be added as services are implemented.
+
+## Roadmap
+
+- [ ] Define business scenario
+- [ ] Create architecture diagrams
+- [ ] Implement core services
+- [ ] Add observability
+- [ ] Add runbooks and operational documentation
