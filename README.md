@@ -6,7 +6,14 @@ This repository showcases how to design and document real-world technology platf
 
 The focus is not just on building services, but on designing complete solutions that are scalable, secure, observable, and operationally ready. It simulates how systems are designed in enterprise environments, covering architecture decisions, integration patterns, data flows, and system reliability considerations.
 
-The goal is to bridge the gap between development and architecture by demonstrating how individual components come together into a cohesive, supportable platform.
+
+## Overview
+
+This repository demonstrates how to design and document a production-style platform architecture in a structured, real-world manner.
+
+It focuses on building a scalable, observable, and maintainable system that integrates multiple upstream systems and supports operational and analytical use cases.
+
+The project simulates how a Solutions Architect approaches system design, trade-offs, and operational readiness.
 
 ## What This Project Covers
 
@@ -18,6 +25,14 @@ The goal is to bridge the gap between development and architecture by demonstrat
 - Observability (logging, metrics, monitoring)
 - Operational readiness (runbooks, incident handling, supportability)
 - Architecture decision-making and trade-offs
+
+## Architecture Highlights
+
+- Event-driven processing for internal workflows  
+- API Gateway as a unified entry point  
+- Separation of operational and reporting concerns  
+- Observability-first design (metrics, logging, health checks)  
+- Architecture Decision Records (ADRs) documenting key decisions  
 
 ## Repository Structure
 
@@ -39,9 +54,44 @@ tests/               # Test cases
 - Ensure solutions are supportable and well-documented
 - Balance trade-offs between speed, cost, and scalability
 
+## Key Components
+
+- Event Ingestion Layer  
+- Processing Layer  
+- Guest Profile Service  
+- Offer Service  
+- Reporting Layer  
+- Data Storage  
+- Observability Layer  
+
+## Architecture Decisions
+
+Key design decisions are documented in:
+
+- [`ADR-001`](architecture/adrs/ADR-001-event-driven-processing.md) – Event-driven processing  
+- [`ADR-002`](architecture/adrs/ADR-002-use-api-gateway.md) – API Gateway entry  
+- [`ADR-003`](architecture/adrs/ADR-003-separate-operational-and-reporting.md) – Data separation  
+
 ## Architecture Overview
 
-Coming soon - high-level system design and diagrams.
+See [`docs/presentations/architecture-walkthrough.md`](docs/presentations/architecture-walkthrough.md) for architecture diagrams.
+
+## Diagrams
+
+- Context Diagram  
+- Logical Architecture  
+- Integration Flow  
+- Deployment Diagram  
+
+
+## Project Purpose
+
+This project is designed to:
+
+- Demonstrate real-world system design thinking  
+- Showcase architecture documentation practices  
+- Highlight trade-offs and decision-making  
+- Bridge the gap between development and architecture  
 
 ## Getting Started
 
